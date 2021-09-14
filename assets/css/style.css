@@ -1,3 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: crimson;
+    background-color: rgb(53, 53, 53);
+}
+#container{
+    margin-left: 250px;
+    margin-right: auto;
+}
+.lamp{
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    float: left;
+    margin-right: 200px;
+    text-align: center;
+    color: white; 
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 50px;
+    border-radius: 2px 2px 80px 80px;
+}
+#knop{
+   background-color: hotpink;
+   color: white;
+   width: 100px;
+   height: 100px;
+   margin-top: 150px;
+   float: left;
 }
