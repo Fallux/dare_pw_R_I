@@ -1,0 +1,16 @@
+lamp maar met kleuren
+
+
+aan/uit knop
+droppable/dragging
+
+extension
+
+slepen/slider
+
+light/dark
+
+
+(tip: het hoeft niet optimaal te werken)
+
+
