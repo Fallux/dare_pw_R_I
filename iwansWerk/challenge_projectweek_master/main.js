@@ -19,6 +19,14 @@ function groenFunction(){
         green.style.opacity= '1';
     }
 }
+function blauwFunction(){
+    if (blue.style.opacity==='1'){
+        blue.style.opacity = '0';
+    }
+    else{
+        blue.style.opacity= '1';
+    }
+}
 function readData() {
     fetch('library.json')
     .then(response => response.json())
@@ -34,8 +42,14 @@ function readData() {
     if (data.knopGreen === true) {
         groenFunction();  
         // console.log("werkt"); 
+    }else{
+        data.knopGreen === false;
     }
-    console.log(data.knopBlue)
+    if (data.knopBlue === true) {
+        blauwFunction();   
+    }else{
+        data.knopBlue === false;
+    }
          setTimeout(readData, 500); 
     });
 }

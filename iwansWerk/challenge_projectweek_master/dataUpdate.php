@@ -21,11 +21,11 @@ if (isset($_GET['color']))
     }
     if ($_GET['color']=='red')
     {
-        $array["knopBlue"] = !$array["knopBlue"];   
+        $array["knopRed"] = !$array["knopRed"];   
     }
     if ($_GET['color']=='blue')
     {
-        $array["knopRed"] = !$array["knopRed"];  
+        $array["knopBlue"] = !$array["knopBlue"];  
     }
 
 }
