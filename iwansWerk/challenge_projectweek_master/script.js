@@ -56,8 +56,9 @@ fetch('../../assets/js/library.json')
     
   }
 
-
-
+  function setDirection(direction) {
+    fetch('../php/dataUpdate.php?direction=' + direction);
+}
 
   // console.log("het werkt")
 //color slider brightness

@@ -4,7 +4,7 @@
         "kleurKnop": ["red","green","blue"]
     },
     {
-        "knopRood":false,
+        "knopRed":false,
         "knopGreen":false,
         "knopBlue":false
     },
