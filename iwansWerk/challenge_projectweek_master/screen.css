@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(53, 53, 53);
+}
+#container{
+    margin-left: 10%;
+    margin-right: auto;
+}
+.lamp{
+    width: 15%;
+    height: 50px;
+    background-color: grey;
+    float: left;
+    margin-right: 18%;
+    text-align: center;
+    color: white; 
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 3%;
+    border-radius: 1% 1% 100% 100%;
+}
+#knop1{
+   background-color: hotpink;
+   color: white;
+   width: 100px;
+   height: 100px;
+   margin-top: 150px;
+   float: right;
+}
+#knop2{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    float: right;
+ }
+.licht{
+    float: left;
+    width: 100%;
+    max-width: 100px;
+}
+/* red light */
+#r{
+    background-color: crimson;
+    width: 5%;
+    height: 500px;
+    margin-left:5%;
+    opacity: 0;
+}
+/* green light */
+#g{
+    background-color: rgb(0, 255, 42);
+    width: 5%;
+    height: 500px;
+    margin-left:28%;
+    opacity: 0;
+    transition: 0.5s ease-in-out all;
+}

@@ -16,10 +16,22 @@ $(document).ready(function(){
   $("#switch_red").click(function(){
     $(".red_light_off").toggleClass("red_light_on");
     setColor('red');
+    if ('red' === false) {
+      setColor('red')===true;
+    }
+    if ('red' === true) {
+      setColor('red')===false;
+    }
   });
   $("#switch_green").click(function(){
     $(".green_light_off").toggleClass("green_light_on");
     setColor('green');
+    if ('green' === false) {
+      setColor('green')===true;
+    }
+    if ('green' === true) {
+      setColor('green')===false;
+    }
   });
   $("#switch_blue").click(function(){
     $(".blue_light_off").toggleClass("blue_light_on");
@@ -60,7 +72,7 @@ fetch('../../assets/js/library.json')
   // }
 
   function setColor(color) {
-    fetch('../php/dataUpdate.php?color=' + color);
+    fetch('dataUpdate.php?color=' + color);
 }
 
   // console.log("het werkt")

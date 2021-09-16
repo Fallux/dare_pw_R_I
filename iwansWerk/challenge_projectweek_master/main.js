@@ -20,18 +20,23 @@ function groenFunction(){
     }
 }
 function readData() {
-    fetch('assets/js/library.json')
+    fetch('library.json')
     .then(response => response.json())
     .then(data =>{
       console.log(data);
-    console.log(data.pw_library[1].knopRed)
-    console.log(data.pw_library[1].knopGreen) 
-    if (data.pw_library[1].knopGreen === true) {
-        groenFunction();  
-        console.log("werkt"); 
+    if (data.knopRed === true) {
+        roodFunction();  
+        console.log("roodwerkt"); 
+    }else{
+        data.knopRed === false;
     }
-    console.log(data.pw_library[1].knopBlue)
-          
+    console.log(data.knopGreen) 
+    if (data.knopGreen === true) {
+        groenFunction();  
+        // console.log("werkt"); 
+    }
+    console.log(data.knopBlue)
+         setTimeout(readData, 500); 
     });
 }
 readData();
