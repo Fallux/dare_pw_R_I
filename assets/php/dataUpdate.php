@@ -13,4 +13,9 @@ if (!$array || $content=="")
 {
     $array = json_decode('{"knopRed":false,"knopGreen":false,"knopBlue":false}', true);
 }
+if (isset($_GET['knopRed', 'knopGreen', 'knopBlue']))
+{
+    $array["knopRed","knopGreen","knopBlue"] = $_GET['knopRed', 'knopGreen', 'knopBlue'];
+}
+$result = file_put_contents("data.json", json_encode($array), LOCK_EX);
 ?>

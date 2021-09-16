@@ -15,12 +15,15 @@ $( function() {
 $(document).ready(function(){
   $("#switch_red").click(function(){
     $(".red_light_off").toggleClass("red_light_on");
+    setColor('red');
   });
   $("#switch_green").click(function(){
     $(".green_light_off").toggleClass("green_light_on");
+    setColor('green');
   });
   $("#switch_blue").click(function(){
     $(".blue_light_off").toggleClass("blue_light_on");
+    setColor('blue');
   });
   // slider 
   function Refresh() {
@@ -52,12 +55,12 @@ fetch('../../assets/js/library.json')
   .then(data =>{
     console.log(data);
   });
-  function set(params) {
+  // function set(params) {
     
-  }
+  // }
 
-  function setDirection(direction) {
-    fetch('../php/dataUpdate.php?direction=' + direction);
+  function setColor(color) {
+    fetch('../php/dataUpdate.php?color=' + color);
 }
 
   // console.log("het werkt")

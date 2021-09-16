@@ -19,3 +19,12 @@ function groenFunction(){
         green.style.opacity= '1';
     }
 }
+console.log("testesttest");
+function readData() {
+    fetch('assets/js/library.json')
+    .then(response => response.json())
+    .then(data =>{
+      console.log(data);
+    });
+}
+readData();
