@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #636363;
+}
+
+.power_buttons {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+}
+
+.red_light_off {
+    background-color: #470202;
+    border-radius: 100%;
+    float: left;
+    height: 100%;
+    min-height: 65px;
+}
+
+.red_light_on {
+    background-color: #df2121;
+    border-radius: 100%;
+    float: left;
+    height: 100%;
+    min-height: 65px;
+}
+
+.green_light_off {
+    background-color: #034d0f;
+    border-radius: 100%;
+    float: left;
+    height: 100%;
+    min-height: 65px;
+}
+
+.green_light_on {
+    background-color: #20df40;
+    border-radius: 100%;
+    float: left;
+    height: 100%;
+    min-height: 65px;
+}
+
+.blue_light_off {
+    background-color: #0c0147;
+    border-radius: 100%;
+    float: left;
+    height: 100%;
+    min-height: 65px;
+}
+
+.blue_light_on {
+    background-color: #4024e2;
+    border-radius: 100%;
+    float: left;
+    height: 100%;
+    min-height: 65px;
+}
+
+.power_switch {
+    float: left;
+}
+
+/* Brightness Slider CSS */
+.slides {
+    border: 3px solid black;
+    height: auto;
+    width: 50%;
+    background-color: white;
+}
+
+.brightness_slide {
+    width: 100%; /* Width of the outside container */
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: grey; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: grey; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+.slider.red {
+    background: red;
+}
+
+.slider.green {
+    background: green;
+}
+
+.slider.blue {
+    background: blue;
+}
