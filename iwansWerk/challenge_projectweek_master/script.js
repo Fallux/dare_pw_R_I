@@ -22,6 +22,7 @@ $(document).ready(function(){
   $("#switch_blue").click(function(){
     $(".blue_light_off").toggleClass("blue_light_on");
   });
+  // slider 
   function Refresh() {
       var red = $(".slider.red").slider("value");
       $("#power_red").css("opacity", red);
@@ -45,6 +46,20 @@ $(document).ready(function(){
     $(".slider.green").slider("value", 1);
     $(".slider.blue").slider("value", 1);
 });
+fetch('../../assets/js/library.json')
+
+  .then(response => response.json())
+  .then(data =>{
+    console.log(data);
+  });
+  function set(params) {
+    
+  }
+
+
+
+
+  // console.log("het werkt")
 //color slider brightness
 // // $( function(){
 //   function Refresh() {
