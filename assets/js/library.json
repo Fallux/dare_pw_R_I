@@ -1,8 +1,16 @@
 {"pw_library" :  [
     {
-        "": ""
+        "aantalKnoppen":3,
+        "kleurKnop": ["red","green","blue"]
+    },
+    {
+        "knopRood":false,
+        "knopGreen":false,
+        "knopBlue":false
+    },
+    {
+        "sliderMinium":0,
+        "sliderMaximum":1 
     }
-
-
 ]
 }
