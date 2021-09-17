@@ -1,0 +1,16 @@
+De kap is 3d maar de lichtstraal is 2d
+De letters mogen groter
+
+de horizontale slider met per kleur de letter erbij
+pijltjes links en rechts bij slider
+de slider knop moet een kleur hebben
+
+de slider moet meer in het midden
+knop met een adnere kleur of
+de letters in wit
+de kaders om de knoppen afmaken
+
+(niet nodig maar misschien een achtergrond kleur of kleine blokjes/streepjes animatie in de verlichting
+)
+
+

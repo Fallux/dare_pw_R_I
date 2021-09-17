@@ -18,25 +18,11 @@ body{
     text-align: center;
     color: white; 
     font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
     padding-top: 3%;
     border-radius: 1% 1% 100% 100%;
 }
-#knop1{
-   background-color: hotpink;
-   color: white;
-   width: 100px;
-   height: 100px;
-   margin-top: 150px;
-   float: right;
-}
-#knop2{
-    background-color: green;
-    color: white;
-    width: 100px;
-    height: 100px;
-    margin-top: 150px;
-    float: right;
- }
+
 .licht{
     float: left;
     width: 100%;
@@ -50,6 +36,7 @@ body{
     margin-left:5%;
     opacity: 0;
     transition: 0.5s ease-in-out all;
+     border-radius: 10px;
 }
 /* green light */
 #g{
@@ -59,6 +46,7 @@ body{
     margin-left:28%;
     opacity: 0;
     transition: 0.5s ease-in-out all;
+    border-radius: 10px;
 }
 #b{
     background-color: rgb(17, 0, 255);
@@ -67,4 +55,5 @@ body{
     margin-left:28%;
     opacity: 0;
     transition: 0.5s ease-in-out all;
+    border-radius: 10px;
 }
